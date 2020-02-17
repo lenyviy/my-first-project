@@ -1,0 +1,306 @@
+
+body{
+	font-family: Comfortaa, cursive;
+	font-style: normal;
+	font-weight: 400;
+	background: linear-gradient(#D4D3F8, #18174E) fixed;
+	width:1000px;
+	margin:auto;
+}
+
+header, main, footer{
+	background-color: white;
+	border-radius: 5px;
+	width: 1000px;
+	box-sizing:border-box;
+}
+
+.clearfix{
+	clear: both;
+	height: 0;
+}
+
+header{
+	margin: 30px auto ; 
+	padding: 20px 50px;
+}
+
+.hblock1{
+	float: left;
+	padding-top: 30px;
+	width: 75%;
+}
+
+.hblock2{
+	float: right;
+	width: 25%;
+}
+
+.logo{
+	height:79px;
+	width: 244px;
+	background: url("картинки/logo.png") no-repeat;
+}
+
+.header-descrip{
+	font-size: 20px;
+	font-weight: 700;
+	padding: 0;
+	margin: 0px 0 20px;
+}
+
+.head h3{
+	font-size: 16px;
+	font-style: italic;
+	color: #4f4b4b;
+}
+
+nav a:first-child{
+	margin-left: 0;
+}
+
+nav a{
+	text-decoration: none;
+	font-size: 20px;
+	margin: 10px;
+	color: black;
+}
+
+nav a:hover{
+	color: #7A7A7A;
+}
+
+nav a:active{
+	color: #4644BB;
+}
+
+main{
+	padding: 50px 30px 30px 50px;
+}
+
+ main.cont{
+	margin:0 auto;
+}
+
+.cont a{
+	display: iline-block;
+}
+
+div .div-btn{
+	width:200px;
+	height:150px;
+	display: inline-block;
+	margin: 10px;
+	border:1px solid #3E1596;
+	border-radius: 15px;
+}
+
+div .div-btn:hover{
+	border: 1px solid #210857;
+	box-shadow:1px 3px 7px rgba(0,0,0,0.5);
+}
+
+div .mahts{
+	background: url("картинки/матан.png") no-repeat;
+}
+
+div .computer_science{
+	background: url("картинки/Информ.png") no-repeat;
+}
+
+div .physics{
+	background: url("картинки/Физика.png") no-repeat;
+}
+
+div .chemistry{
+	background: url("картинки/Химия.png") no-repeat;
+}
+
+div .russian{
+	background: url("картинки/Русский язык.png") no-repeat;
+}
+
+div .foreign{
+	background: url("картинки/Иностранный язык.png") no-repeat;
+}
+
+div .literature{
+	background: url("картинки/Литература.png") no-repeat;
+}
+
+div .biology{
+	background: url("картинки/Биология.png") no-repeat;
+}
+
+div .social_scince{
+	background: url("картинки/Обществознание.png") no-repeat;
+}
+
+div .history{
+	background: url("картинки/История.png") no-repeat;
+}
+
+div .OBG{
+	background: url("картинки/ОБЖ.png") no-repeat;
+}
+
+div .economy{
+	background: url("картинки/Экономика.png") no-repeat;
+}
+
+div .geography{
+	background: url("картинки/География.png") no-repeat;
+}
+
+div .technology{
+	background: url("картинки/Технология.png") no-repeat;
+}
+
+div .astronomy{
+	background: url("картинки/Астрономия.png") no-repeat;
+}
+
+div .sport{
+	background: url("картинки/Физкультура.png") no-repeat;
+}
+
+div .music{
+	background: url("картинки/Музыка.png") no-repeat;
+}
+
+div .art{
+	background: url("картинки/ИЗО.png") no-repeat;
+}
+
+div .psychology{
+	background: url("картинки/Психология.png") no-repeat;
+}
+
+.teacher{
+	margin: 10px 20px 20px 0;
+	padding: 10px 10px;
+	border: 1px solid #cac8fa;
+	border-radius: 3px;
+}
+
+
+.photo{
+	float: left;
+	width: 200px;
+	margin-right: 10px; 
+}
+
+.photo img{
+	width: 100%;
+}
+
+.table {
+	float: right;
+	width: 660px;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse; 
+	border: none;
+	table-layout: fixed; 
+}
+
+th:first-child{
+	width: 60px;
+}
+
+td{
+	text-align: center;
+	padding: 5px 5px 2px 5px;
+}
+
+td[colspan="7"]{
+	background-color: rgba(110, 110, 110, 0.5);
+}
+
+td:first-child{
+	border-right: 1px solid rgba(110, 110, 110, 0.7);
+}
+
+td, th{
+	border-bottom: 1px solid rgba(110, 110, 110, 0.7);
+}
+
+table .c1{
+	background-color: rgba(9, 0, 255, 0.3)
+}
+
+table .c2{
+	background-color: rgba(115, 218, 250, 0.3);
+}
+
+table .c3{
+	background-color: rgba(210, 47, 224, 0.3);
+}
+
+.teacher_title{
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+}
+
+.character div{
+	height: 25px;
+	width: 40px;
+	margin: 10px 5px 0 0 ;
+	padding: 0;
+}
+
+.character span{
+	margin: 0 10px 0 0;
+	padding: 0;
+}
+
+.character .color1{
+	background-color: rgba(9, 0, 255, 0.55);
+}
+
+.character .color2{
+	background-color: rgba(115, 218, 250, 0.55);
+}
+
+.character .color3{
+	background-color: rgba(210, 47, 224, 0.55);
+}
+	
+.character div, .character span{
+	display: inline-block;
+}
+
+.table .warning{
+	border: 1px solid rgba(227, 77, 77);
+	background-color: rgba(245, 132, 132, 0.5);
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.table .warning p{
+	margin: 0;
+}
+
+footer{
+	background-color: transparent;
+	color: white;
+	margin: 5px 0;
+	padding: 10px 50px 10px 50px;
+}
+
+.footer-block-1, .footer-block-2{
+	width: 447px;
+	display: inline-block;
+	border: 1px solid rgba(202, 200, 250, 0.3);
+	box-sizing: border-box;
+	padding: 5px 10px;
+	margin: 0;
+	min-height: 200px;
+}
+
+.footer-block-2{
+	border-left: 3px solid white;
+}
